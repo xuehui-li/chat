@@ -42,6 +42,18 @@ curl -X POST  http://localhost:3000/api/v1/messages  --data-urlencode "message=@
 curl -X POST  http://localhost:3000/api/v1/messages.json  --data-urlencode "message=@bob @john (success) such a cool feature; https://yahoo.com"
 {"mentions":["bob","john"],"emoticons":["success"],"links":[{"url":"https://yahoo.com"}]}
 ```
+## Setup guide
+1. Install Ruby.
+
+2. Install rails: `gem install rails`.
+
+3. Clone the repo.
+
+4. `cd` to the repo inside a terrminal.
+
+5. Run `bundle install`.
+
+To start the service, run `bin/rails server` under the repo directory from a terminal.
 
 ## What I would like to do if I had more time
 1. Add more tests: for example, `link.rb` has no tests.
