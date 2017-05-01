@@ -45,7 +45,8 @@ curl -X POST  http://localhost:3000/api/v1/messages.json  --data-urlencode "mess
 ## Setup guide
 1. Install Ruby.
 
-2. Install rails: `gem install rails`.
+2. Install Rails: `gem install rails -v 3.2.22.5`. Please note there is no particular reason why Rails has to
+be on this version for this service. You can update `Gemfile` to use a new version.
 
 3. Clone the repo.
 
